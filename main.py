@@ -199,6 +199,35 @@ class PacmanGame:
                         return "restart"
                     if event.key == pygame.K_q:
                         return "quit"
+                    
+    def win_screen(self):
+        self.window.fill(BLACK)
+        win_text = self.font.render('You Win!', True, GREEN)
+        score_text = self.font.render(f'Score: {self.score}', True, WHITE)
+        restart_text = self.font.render('Press R to Restart or Q to Quit', True, WHITE)
+
+        self.window.blit(win_text, (WIDTH // 2 - win_text.get_width() // 2, HEIGHT // 4))
+        self.window.blit(score_text, (WIDTH // 2 - score_text.get_width() // 2, HEIGHT // 2))
+        self.window.blit(restart_text, (WIDTH // 2 - restart_text.get_width() // 2, 3 * HEIGHT // 4))
+
+        pygame.display.update()
+
+        waiting = True
+        while waiting:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    return "quit"
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_r:
+                        return "restart"
+                    if event.key == pygame.K_q:
+                        return "quit"
+
+    def check_win_condition(self):
+        for row in self.maze:
+            if FOOD in row:
+                return False
+        return True
 
     def run(self):
         running = True
@@ -226,6 +255,14 @@ class PacmanGame:
 
             if self.pacman in self.ghosts:
                 result = self.game_over_screen()
+                if result == "restart":
+                    self.reset_game()
+                else:
+                    running = False
+                continue
+
+            if self.check_win_condition():
+                result = self.win_screen()
                 if result == "restart":
                     self.reset_game()
                 else:
