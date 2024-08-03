@@ -1,20 +1,4 @@
-# Pac-Man Game with A* Pathfinding 🎮
-
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
-⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
-🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬜⬜⬛⬛⬛⬜⬜
-🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬛⬛⬛⬜⬜
-🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
-⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+# Pac-Man Game with A* Pathfinding ᗧ···ᗣ···ᗣ··
 
 This is a Python implementation of the classic Pac-Man game, featuring A* and Dijkstra's pathfinding algorithms for ghost movement. The game is built using the Pygame library and demonstrates basic game development concepts and graph travseral/pathfinding techniques.
 
@@ -43,7 +27,7 @@ This project was created as a fun way to compare Dijkstra's Algorithm with the A
    ```
 3. Download the `main.py` file to your local machine.
 
-## How to Play 🎮
+## How to Play 👾
 
 1. Run the game by executing the following command in your terminal:
    ```
@@ -58,7 +42,7 @@ This project was created as a fun way to compare Dijkstra's Algorithm with the A
 4. Press 'A' to switch to A* pathfinding algorithm.
 5. Press 'D' to switch to Dijkstra's pathfinding algorithm.
 
-## Game Controls 🎮
+## Game Controls 🕹️
 
 - ⬆️⬇️⬅️➡️ Arrow Keys: Move Pac-Man
 - 🅰️ 'A' Key: Switch to A* pathfinding algorithm
