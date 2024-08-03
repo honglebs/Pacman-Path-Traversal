@@ -15,23 +15,23 @@ This project was created as a fun way to compare Dijkstra's Algorithm with the A
 
 ## Requirements 🛠️
 
-- 🐍 Python 3.x
+- 🐍 Python 3.12
 - 🎮 Pygame library
 
 ## Installation 💻
 
-1. Ensure you have Python 3.x installed on your system.
+1. Ensure you have Python 3.12 installed on your system.
 2. Install the Pygame library by running:
    ```
    pip install pygame
    ```
-3. Download the `pacman_game.py` file to your local machine.
+3. Download the `main.py` file to your local machine.
 
 ## How to Play 🎮
 
 1. Run the game by executing the following command in your terminal:
    ```
-   python pacman_game.py
+   python main.py
    ```
 2. Use the arrow keys to move Pac-Man:
    - ⬆️ Up Arrow: Move Up
@@ -52,7 +52,7 @@ This project was created as a fun way to compare Dijkstra's Algorithm with the A
 
 ## Customization 🛠️
 
-You can customize the game by modifying the following variables in the `pacman_game.py` file:
+You can customize the game by modifying the following variables in the `main.py` file:
 
 - `MAZE`: Change the layout of the maze
 - `CELL_SIZE`: Adjust the size of each cell in the maze
@@ -78,6 +78,7 @@ Feel free to fork this project and submit pull requests with improvements or bug
 - 🏙️ Implementing multiple levels
 - 🏅 Creating a high score system
 - 💥 Adding power-ups and different ghost behaviors
+- 🐛 Fixing side scroll pass on the edges
 
 ## License 📜
 
