@@ -6,7 +6,7 @@ from collections import deque
 # Constants 
 MAZE_WIDTH = 20
 MAZE_HEIGHT = 22
-CELL_SIZE = 27  # Adjusted to fit the maze in the window
+CELL_SIZE = 30  # Adjusted to fit the maze in the window
 WIDTH = MAZE_WIDTH * CELL_SIZE
 HEIGHT = MAZE_HEIGHT * CELL_SIZE
 
@@ -183,9 +183,9 @@ class PacmanGame:
         score_text = self.font.render(f'Score: {self.score}', True, WHITE)
         restart_text = self.font.render('Press R to Restart or Q to Quit', True, WHITE)
 
-        self.window.blit(game_over_text, (WIDTH // 2 - 100, HEIGHT // 4))
-        self.window.blit(score_text, (WIDTH // 2 - 50, HEIGHT // 2))
-        self.window.blit(restart_text, (WIDTH // 2 - 150, 3 * HEIGHT // 4))
+        self.window.blit(game_over_text, (WIDTH // 2 - game_over_text.get_width() // 2, HEIGHT // 4))
+        self.window.blit(score_text, (WIDTH // 2 - score_text.get_width() // 2, HEIGHT // 2))
+        self.window.blit(restart_text, (WIDTH // 2 - restart_text.get_width() // 2, 3 * HEIGHT // 4))
 
         pygame.display.update()
 
