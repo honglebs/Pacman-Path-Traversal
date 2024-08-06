@@ -232,7 +232,7 @@ class PacmanGame:
     def run(self):
         running = True
         while running:
-            self.clock.tick(5)  # Adjust game speed
+            self.clock.tick(7)  # Adjust game speed
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
