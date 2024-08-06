@@ -1,4 +1,3 @@
-<img width="593" alt="Pacman Screenshot" src="https://github.com/user-attachments/assets/7dff17e6-2e86-44f3-ac75-35aee51ecccd">
 # Pac-Man Game with A* Pathfinding ᗧ···ᗣ···ᗣ··
 
 This is a Python implementation of the classic Pac-Man game, featuring A* and Dijkstra's pathfinding algorithms for ghost movement. The game is built using the Pygame library and demonstrates basic game development concepts and graph traversal/pathfinding techniques.
@@ -13,6 +12,8 @@ This project was created as a fun way to compare Dijkstra's Algorithm with the A
 - 🗺️ Customizable maze layout
 - 🏆 Score tracking
 - 🚀 Game over screen with restart option
+
+<img width="593" alt="Pacman Screenshot" src="https://github.com/user-attachments/assets/7dff17e6-2e86-44f3-ac75-35aee51ecccd">
 
 ## Requirements 🛠️
 
